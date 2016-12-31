@@ -1,3 +1,6 @@
+checkuot:
+  pre:
+    - composer config -g github-oauth.github.com $GITHUB_TOKEN
 test:
   override:
     - sh benchmark.sh
