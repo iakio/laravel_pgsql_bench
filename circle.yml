@@ -1,4 +1,4 @@
-checkuot:
+checkout:
   pre:
     - composer config -g github-oauth.github.com $GITHUB_TOKEN
 test:
